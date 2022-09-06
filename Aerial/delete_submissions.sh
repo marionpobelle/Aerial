@@ -1,0 +1,1 @@
+rm -rf submissions/*.zip && rm -rf submissions/submission_results/*
