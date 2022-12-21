@@ -14,9 +14,9 @@ This solution to the Aerial Image Recognition Challenge was developed using [Jup
 
 We first used an instance of the REsNet50 model that is already trained on the [ImageNet](https://www.image-net.org/) dataset. We obtained stable results for our loss and accuracy.
 
-<p align="center"><img src="https://github.com/marionpobelle/Aerial/blob/main/Aerial/img/lossacc_pretrained.png?raw=true)" width="1000" height="800"/></p>
+<p align="center"><img src="https://github.com/marionpobelle/Aerial/blob/main/Aerial/img/lossacc_pretrained.png?raw=true)" width="1000" height="400"/></p>
 
 As the pretrained ResNet50 model was really performant, we decided to recreate its architecture but without any pretrained weights. Once again we obtained great results on loss and accuracy.
 
-<p align="center"><img src="https://github.com/marionpobelle/Aerial/blob/main/Aerial/img/lossacc_untrained.png?raw=true)" width="1000" height="800"/></p>
+<p align="center"><img src="https://github.com/marionpobelle/Aerial/blob/main/Aerial/img/lossacc_untrained.png?raw=true)" width="1000" height="400"/></p>
 
