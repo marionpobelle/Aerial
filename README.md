@@ -10,6 +10,13 @@ Data comes from part of the data set (NWPU-RESISC45) originally used in the pape
 
 # Development
 
-This solution to the Aerial Image Recognition Challenge was developed using [Jupyter](https://jupyter.org/) over the course of 2 months. The group members were KHATER Yara, POBELLE Marion and SERRE Gaëtan.
+This solution to the Aerial Image Recognition Challenge was developed using [Jupyter](https://jupyter.org/) over the course of 2 months. The group members were KHATER Yara, [POBELLE Marion](https://github.com/marionpobelle) and [SERRE Gaëtan](https://github.com/gaetanserre).
 
-FINISH TOMORROW
+We first used an instance of the REsNet50 model that is already trained on the [ImageNet](https://www.image-net.org/) dataset. We obtained stable results for our loss and accuracy.
+
+<p align="center"><img src="https://github.com/marionpobelle/Aerial/blob/main/Aerial/img/lossacc_pretrained.png?raw=true)" width="1000" height="800"/></p>
+
+As the pretrained ResNet50 model was really performant, we decided to recreate its architecture but without any pretrained weights. Once again we obtained great results on loss and accuracy.
+
+<p align="center"><img src="https://github.com/marionpobelle/Aerial/blob/main/Aerial/img/lossacc_untrained.png?raw=true)" width="1000" height="800"/></p>
+
